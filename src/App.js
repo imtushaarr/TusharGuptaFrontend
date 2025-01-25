@@ -23,7 +23,7 @@ const App = () => {
 
   useEffect(() => {
     const enableAudio = () => {
-      setHasInteracted(false);
+      setHasInteracted(true);
     };
 
     document.addEventListener("click", enableAudio);
